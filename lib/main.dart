@@ -51,11 +51,12 @@ class MyHomePage extends StatelessWidget {
                       AssetImage('assets/image.jpg')),
               // ),
               Icon(
-                Icons.search_sharp,
+                CupertinoIcons.airplane,
                 color: Colors.red,
               ),
               SizedBox(
-                height: 10,
+                height: 100,
+                width: 100,
               ),
               Icon(
                 FontAwesomeIcons.gamepad,
@@ -72,6 +73,7 @@ class MyHomePage extends StatelessWidget {
                   Icons.search_sharp,
                   color: Colors.red,
                 ),
+                // child: Text("button"),
               ),
               SizedBox(
                 height: 10,
@@ -95,6 +97,7 @@ class MyHomePage extends StatelessWidget {
               Container(
                 height: 150,
                 width: 150,
+
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
                     image: DecorationImage(
